@@ -1,0 +1,273 @@
+body{
+  background-image: linear-gradient(90deg, rgba(165, 165, 165, 0.03) 0%, rgba(165, 165, 165, 0.03) 8%,rgba(235, 235, 235, 0.03) 8%, rgba(235, 235, 235, 0.03) 9%,rgba(7, 7, 7, 0.03) 9%, rgba(7, 7, 7, 0.03) 14%,rgba(212, 212, 212, 0.03) 14%, rgba(212, 212, 212, 0.03) 17%,rgba(219, 219, 219, 0.03) 17%, rgba(219, 219, 219, 0.03) 95%,rgba(86, 86, 86, 0.03) 95%, rgba(86, 86, 86, 0.03) 100%),linear-gradient(67.5deg, rgba(80, 80, 80, 0.03) 0%, rgba(80, 80, 80, 0.03) 11%,rgba(138, 138, 138, 0.03) 11%, rgba(138, 138, 138, 0.03) 17%,rgba(122, 122, 122, 0.03) 17%, rgba(122, 122, 122, 0.03) 24%,rgba(166, 166, 166, 0.03) 24%, rgba(166, 166, 166, 0.03) 27%,rgba(245, 245, 245, 0.03) 27%, rgba(245, 245, 245, 0.03) 89%,rgba(88, 88, 88, 0.03) 89%, rgba(88, 88, 88, 0.03) 100%),linear-gradient(67.5deg, rgba(244, 244, 244, 0.03) 0%, rgba(244, 244, 244, 0.03) 4%,rgba(16, 16, 16, 0.03) 4%, rgba(16, 16, 16, 0.03) 10%,rgba(157, 157, 157, 0.03) 10%, rgba(157, 157, 157, 0.03) 20%,rgba(212, 212, 212, 0.03) 20%, rgba(212, 212, 212, 0.03) 83%,rgba(5, 5, 5, 0.03) 83%, rgba(5, 5, 5, 0.03) 84%,rgba(237, 237, 237, 0.03) 84%, rgba(237, 237, 237, 0.03) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+}
+.contenedorLogo{
+  height: 110px;
+}
+.logotipo{
+  width: 200px;
+  height: 100px;
+}
+
+
+/* CARD SHOP */
+.cardShop{
+  height:100%;
+  border: none !important;
+  background-color: transparent;
+  color :#111;
+  
+}
+
+h5{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    font-size: 1rem;
+  text-align: start;
+}
+
+.descriptionProducto {
+  font-size: 0.9;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+  cursor: pointer;
+}
+.precio{
+  margin-top: 0px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+/* BTN SHOP */
+.cartBtn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 0.8rem !important;
+  width: 70% !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  letter-spacing: 1px !important;
+  gap: 7px !important;
+  color: white !important;
+  font-weight: 500 !important;
+  position: relative !important;
+  background: linear-gradient(to right, rgb(59, 59, 59), rgb(34, 34, 34)) !important;
+  border: 1px solid rgb(65, 65, 65) !important;
+  transition-duration: 0.3s !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+}
+
+.cartBtn:hover {
+  background-color: gray !important;
+  color: white !important;
+  transition-duration: 0.3s !important;
+  box-shadow: 0px 0px 2px rgb(185, 185, 185), 0px 0px 10px rgb(97, 97, 97) !important;
+}
+
+
+
+.precioProducto{
+  font-size: 1rem;
+}
+
+.descriptionProcducto{
+  color: gray;
+  text-align: start;
+}
+
+.title{
+  color: rgba(0, 0, 0, 0.941);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  font-size: 3.5em; /* Tamaño de fuente grande */
+margin-bottom: 10px;
+}
+
+.header { 
+  padding: 20px; 
+  font-family: 'Impact', sans-serif;
+}
+
+.subtitle{
+  font-size: 1.2em;
+color: rgba(0, 0, 0, 0.775);
+margin-bottom: 20px;
+}
+
+.talla{
+  text-align: start;
+}
+
+/* SCROLL  */
+
+/* From Uiverse.io by ArturCodeCraft */ 
+/* <reset-style> ============================ */
+a {
+  text-decoration: none;
+}
+/* <main-style> ============================ */
+.main__scroll-text {
+  color: rgba(28,28,30,1);
+}
+
+.main__action:hover .main__scroll-box {
+  animation: scroll-down 3s infinite;
+}
+
+/* Animate scroll icon */
+@keyframes scroll-down {
+  0%, 100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  35% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  70% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+}
+
+
+/* Scroll */
+
+/* From Uiverse.io by ArturCodeCraft */ 
+/* <reset-style> ============================ */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #080808; /* Puedes cambiar el color según tu diseño */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top-btn:hover {
+  background-color: #dadada;
+  color: #080808;
+  font-weight: 500; /* Color al pasar el mouse */
+}
+
+
+/* Btn Contacto*/
+/* From Uiverse.io by sarra-thabet */ 
+.btnNavContacto {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: rgb(245, 242, 242);
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+.btnNavContacto span {
+  margin: 10px;
+}
+
+.btnNavContacto::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.btnNavContacto:hover {
+  color: #e1306c ;
+  border: none;
+}
+
+.btnNavContacto:hover::before {
+  box-shadow: inset 0 0 0 10em black;
+}
+
+
+img{
+  cursor: pointer;
+}
+
+
+/*Alert Bienvenida*/
+.custom-swal{
+  background-color: white;
+  border: 1px solid #a3a3a3;
+  width: 450px;
+  height: 550px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.custom-swal-button{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    font-size: 1rem;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  gap: 7px;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  background: linear-gradient(to right, rgb(59, 59, 59), rgb(34, 34, 34));
+  border: 1px solid rgb(65, 65, 65);
+transition-duration: 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.custom-swal-button:hover{
+  background-color: gray;
+  color: white;
+  transition-duration: 0.3s;
+  box-shadow: 0px 0px 2px rgb(185, 185, 185), 0px 0px 10px rgb(97, 97, 97);
+}
+
+.custom-swal-text{
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}
+
+
+svg{
+  color: white;
+}
